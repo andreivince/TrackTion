@@ -93,18 +93,18 @@ export default function ModalContent({ onClose }) {
               />
             </label>
           </div>
-          <ul class="w-full flex gap-4 mb-4 justify-center">
+          <ul className="w-full flex gap-4 mb-4 justify-center">
             <li>
               <input
                 type="radio"
                 id="sell-option"
                 name="trade-option"
-                class="hidden peer"
+                className="hidden peer"
                 value="sell"
               />
               <label
                 for="sell-option"
-                class="block w-24 p-3 text-center text-white bg-red-500 border-2 border-transparent rounded-lg cursor-pointer peer-checked:scale-110 peer-checked:border-3 peer-checked:border-stone-950 peer-checked:bg-red-600 peer-checked:font-bold hover:bg-red-700"
+                className="block w-24 p-3 text-center text-white bg-red-500 border-2 border-transparent rounded-lg cursor-pointer peer-checked:scale-110 peer-checked:border-3 peer-checked:border-stone-950 peer-checked:bg-red-600 peer-checked:font-bold hover:bg-red-700"
               >
                 Sell
               </label>
@@ -114,12 +114,12 @@ export default function ModalContent({ onClose }) {
               type="radio"
               id="buy-option"
               name="trade-option"
-              class="hidden peer"
+              className="hidden peer"
               value="buy"
             />
             <label
               for="buy-option"
-              class="block w-24 p-3 text-center text-white bg-green-500 border-2 border-transparent rounded-lg cursor-pointer peer-checked:transform peer-checked:scale-110 peer-checked:border-3 peer-checked:border-stone-950 peer-checked:bg-green-600 peer-checked:font-bold hover:bg-green-700"
+              className="block w-24 p-3 text-center text-white bg-green-500 border-2 border-transparent rounded-lg cursor-pointer peer-checked:transform peer-checked:scale-110 peer-checked:border-3 peer-checked:border-stone-950 peer-checked:bg-green-600 peer-checked:font-bold hover:bg-green-700"
             >
               Buy
             </label>

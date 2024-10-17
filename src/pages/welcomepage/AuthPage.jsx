@@ -23,13 +23,13 @@ function AuthPage() {
     return (
       <div className="App">
         <div className="App-Background">
-          <h1 class="text-4xl font-bold text-white mb-4">
+          <h1 className="text-4xl font-bold text-white mb-4">
             Welcome to&nbsp;
-            <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 animate-text drop-shadow-lg">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 animate-text drop-shadow-lg">
               Tracktion
             </span>
           </h1>
-          <p class="text-lg text-gray-300 mb-4">
+          <p className="text-lg text-gray-300 mb-4">
             Your complete financial picture, in one place.
           </p>
           <div style={{ display: "flex", gap: 10 }}>
