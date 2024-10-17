@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/TrackTion/static/css/main.990d4938.css",
-    "main.js": "/TrackTion/static/js/main.2e7ecd34.js",
-    "static/js/437.e1d8dc3b.chunk.js": "/TrackTion/static/js/437.e1d8dc3b.chunk.js",
+    "main.css": "/TrackTion/static/css/main.d676b393.css",
+    "main.js": "/TrackTion/static/js/main.92af7588.js",
+    "static/js/345.14c10602.chunk.js": "/TrackTion/static/js/345.14c10602.chunk.js",
     "static/js/206.d60a4c88.chunk.js": "/TrackTion/static/js/206.d60a4c88.chunk.js",
     "index.html": "/TrackTion/index.html"
   },
   "entrypoints": [
-    "static/css/main.990d4938.css",
-    "static/js/main.2e7ecd34.js"
+    "static/css/main.d676b393.css",
+    "static/js/main.92af7588.js"
   ]
 }
