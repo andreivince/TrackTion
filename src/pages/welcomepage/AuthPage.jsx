@@ -5,8 +5,7 @@ import {
   Routes,
   BrowserRouter,
 } from "react-router-dom";
-import "/Users/andreivince/Desktop/TrackTion/Tracktion/src/App.css";
-import "/Users/andreivince/Desktop/TrackTion/Tracktion/src/App.css";
+import "/Users/andreivince/Desktop/TrackTion/TrackTion Code/src/App.css";
 import React from "react";
 import { createPortal } from "react-dom";
 import Modal from "react-modal";
