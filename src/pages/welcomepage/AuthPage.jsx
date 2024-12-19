@@ -30,7 +30,7 @@ function AuthPage() {
             </span>
           </h1>
           <p className="text-4lg text-gray-300 mb-4">
-            Your complete financial picture, in one place.
+            Your complete financial picture, in one place..
           </p>
           <div style={{ display: "flex", gap: 10 }}>
             <button
