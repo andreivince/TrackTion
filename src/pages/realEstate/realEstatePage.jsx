@@ -24,17 +24,17 @@ import Loans from "../../components/loans";
 import Portfolio from "../../components/portfolio";
 import TrackTionBot from "../../components/trackionBot";
 import Objectives from "../../components/objectives";
-import ChartROI from "../../components/charts/ChartROI";
 
-function SummaryPage() {
+export default function RealEstatePage() {
   return (
     <div className="bg-gray-900 min-h-screen text-white p-10">
       <div className="flex">
         <Objectives />
         <SignOutButton />
       </div>
+
       <div className="flex flex-col items-center justify-center mb-10">
-        <p className="font-bold text-5xl mb-4">Your Wealth.</p>
+        <p className="font-bold text-5xl mb-4">Your Real Estate.</p>
 
         <div className="flex gap-5">
           <ManualButton />
@@ -43,23 +43,15 @@ function SummaryPage() {
 
       {/* Dividends and Gains Section */}
       <div className="grid gap-10 grid-cols-2 ">
-        <div className="h-96 overflow-y-auto">
-          <Gains />
-        </div>
+
         <RealEstate />
-        <Vehicles />
-        <div className="h-96 overflow-y-auto">
-          <Loans />
-        </div>
       </div>
     </div>
   );
 }
 
-
 function ManualButton() {
-  const [showModal, setShowModal] = React.useState(false)
-
+  const [showModal, setShowModal] = React.useState(false);
 
   return (
     <>
@@ -81,7 +73,4 @@ function ManualButton() {
     </>
   );
 }
-
-
-export default SummaryPage;
 

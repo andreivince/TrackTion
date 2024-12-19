@@ -4,6 +4,8 @@ import AuthPage from "./pages/welcomepage/AuthPage.jsx";
 import SummaryPage from "./pages/homepage/SummaryPage.jsx";
 import { useState, useEffect } from "react";
 import { supabase } from "./client.js";
+import RealEstatePage from "./pages/realEstate/realEstatePage.jsx";
+import PortfolioPage from "./pages/portolio/portfolioPage.jsx";
 
 function App() {
   const [session, setSession] = useState(null);
@@ -32,6 +34,8 @@ function App() {
       <Routes>
         <Route path="/" element={session ? <SummaryPage /> : <AuthPage />} />
         <Route path="/SummaryPage" element={<SummaryPage />} />
+        <Route path="/realEstatePage" element={<RealEstatePage />} />
+        <Route path="/PortfolioPage" element={<PortfolioPage />} />
       </Routes>
     </Router>
   );

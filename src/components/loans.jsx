@@ -1,5 +1,6 @@
 import mockData from "../mockData.json";
 import { supabase } from "../client";
+import TrackTionBot from "./trackionBot";
 
 export default function Loans() {
   return (
@@ -40,6 +41,7 @@ export default function Loans() {
           </p>
         </li>
       </ul>
+      
     </div>
   );
 }
